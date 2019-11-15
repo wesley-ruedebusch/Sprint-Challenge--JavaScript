@@ -29,15 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+The biggest difference is that forEach() allows the mutation of the original array, while map() returns a new array of the same size
 
 2. What is the difference between a function and a method?
-
+functions are explicit and can optionally call data back. Methods are a name associated with an object.
 3. What is closure?
-
+ it is an inner function that has access to the parents scope chain, its own and global variables.
 4. Describe the four rules of the 'this' keyword.
-
+    Is the function called by new?
+    Is the function called by call(), apply(), or bind()?
+    Is the function called as a method, ie: obj.func()?
+    Is the function called in the global scope?
 5. Why do we need super() in an extended class?
-
+it would be undefined in the constructor that is why you try invoking with super props as an argument
 ## Project Set up
 
 Follow these steps to set up and work on your project:
